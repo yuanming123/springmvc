@@ -15,12 +15,4 @@
     	</if>
     </where>
   </select>
-  
-  <!-- <select id="queryStudent" resultType="Student">
-    select * from t_student
-  </select> -->
-  
-  <!-- <insert id="insertStudent" parameterType="Student" flushCache="true">
-  	insert into t_student(studentno,name,grade,classid) values(#{studentno},#{name},#{grade},#{classid});
-  </insert> -->
 </mapper>
